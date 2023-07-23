@@ -9,6 +9,5 @@ list_example = ['apple','banana','mango','peach']
 
 try:
     print(list_example[10])
-
 except IndexError as e:
     print(e, type(e))
